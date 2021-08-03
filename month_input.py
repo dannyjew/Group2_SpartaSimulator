@@ -7,6 +7,6 @@ def time_frame():
                 input("How long would you like to run the stimulation for? Enter in number (1, 2,.. etc) of months: "))
 
     return user_month_input
-    print(f"This stimulation will show you what Sparta will look like in {time_frame()} months.")
+    print(f"This simulation will show you what Sparta will look like in {time_frame()} months.")
 
 
