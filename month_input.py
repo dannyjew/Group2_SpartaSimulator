@@ -1,15 +1,14 @@
-# Things to do in the meeting:
 
-user_month_input = input("How long would you like to run the stimulation for? Enter in number (1, 2,.. etc) of months: ")
-
-def time_frame(month):
-    while month.isdigit() != True:
+def time_frame():
+    try:
+        user_month_input = int(input("How long would you like to run the stimulation for? Enter in number (1, 2,.. etc) of months: "))
+    except ValueError:
         print("Please input a number as a digit (eg. 10)")
-        user_month_input = input(
-            "How long would you like to run the stimulation for? Enter in number (1, 2,.. etc) of months: ")
-        month = user_month_input
-    else:
-        print(f"This stimulation will show you what Sparta will look like in {month} months.")
+        user_month_input = int(
+                input("How long would you like to run the stimulation for? Enter in number (1, 2,.. etc) of months: "))
+
+    return user_month_input
+
+print(f"This stimulation will show you what Sparta will look like in {time_frame()} months.")
 
 
-time_frame(user_month_input)
