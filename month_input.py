@@ -11,4 +11,4 @@ def time_frame():
 
 print(f"This stimulation will show you what Sparta will look like in {time_frame()} months.")
 
-
+month = time_frame()
