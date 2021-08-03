@@ -4,3 +4,4 @@ def monthly_centre(list_of_centers):
     return center_name_gen.name_generator(list_of_centers, 1) # we specify that we want it to open exactly 1 centre and add it to existing centre list
 
 
+
