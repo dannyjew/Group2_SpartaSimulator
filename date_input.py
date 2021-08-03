@@ -4,7 +4,6 @@ def date(months):
     date = date.today()
     months = relativedelta(months=months)
     date = date + months
-
     return date
 
 

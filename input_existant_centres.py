@@ -1,4 +1,8 @@
 def centre_input():
+    """
+    Requests an input of number of initial centers
+    :return: a dictionary of centers with 0 trainees
+    """
     import center_name_gen
     correct_input = False
     while not correct_input:

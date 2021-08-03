@@ -8,7 +8,6 @@ def time_frame():
                 input("How long would you like to run the stimulation for? Enter in number (1, 2,.. etc) of months: "))
 
     return user_month_input # this just gives us the month as an integer that we can then use for the rest of our work
+  print(f"This simulation will show you what Sparta will look like in {time_frame()} months.") # this is to confirm the months or the user can re-start
 
-print(f"This simulation will show you what Sparta will look like in {time_frame()} months.") # this is to confirm the months or the user can re-start
 
-# month = time_frame() # use to test
