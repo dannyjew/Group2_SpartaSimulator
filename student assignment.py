@@ -1,10 +1,9 @@
 def student_assignment(list_of_centers, waiting_list, intake_list):
     import random
     center_names = list_of_centers.keys()
-    center_volume = list_of_centers.values()
     for x in center_names:
         i = list_of_centers[x]
-        if waiting_list == 0 and intake_list ==0:
+        if waiting_list == 0 and intake_list == 0:
             pass
         max_intake = 21
         if i < 100:
