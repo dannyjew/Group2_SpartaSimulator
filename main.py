@@ -5,7 +5,7 @@ from opening_new_centre import monthly_centre
 from trainee_generation import trainee_gen
 from stu_assignment import student_assignment
 from num_full_centers import num_full
-from plotting import time_centers, time_trainees
+from plotting import time_centers, time_trainees, show
 today = date(0)
 months = time_frame()
 end_date = date(months)
@@ -29,7 +29,9 @@ while date(month_tick) != end_date:
     centers, wait_list = student_assignment(centers, wait_list, intake)
 
 
-time_centers(month_c, centers_month)
+time_centers(month_c, centers_month, month)
 time_trainees(month, trainees_month)
 
+print(month_c)
 print(f"There are {len(centers)} center(s), training {sum(centers.values())} trainees, {num_full(centers)} center(s) is/are full, and there are {wait_list} on the wait list.")
+show()
