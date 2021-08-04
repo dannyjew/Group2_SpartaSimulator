@@ -1,4 +1,5 @@
 def student_assignment(list_of_centers, waiting_list, intake_list):
+
     """
     Takes the dictionary of centers, waiting list and intake and distribtues trainees to centers using random to select
     a number between 0 and 20 for each center. Waiting list is prioritised ,
