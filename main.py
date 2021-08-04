@@ -8,6 +8,7 @@ from num_full_centers import num_full
 from plotting import time_centers, time_trainees,  show
 today = date(0)
 months = time_frame()
+print(f"This simulation will show you what Sparta will look like in {months} months.") # this is to confirm the months or the user can re-start
 end_date = date(months)
 month_tick = 0
 centers = centre_input()
