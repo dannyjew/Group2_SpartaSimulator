@@ -5,7 +5,7 @@ from opening_new_centre import monthly_centre
 from trainee_generation import trainee_gen
 from stu_assignment import student_assignment
 from num_full_centers import num_full
-from plotting import time_centers, time_trainees, show
+from plotting import time_centers, time_trainees,  show
 today = date(0)
 months = time_frame()
 end_date = date(months)
