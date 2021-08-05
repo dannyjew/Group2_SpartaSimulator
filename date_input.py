@@ -1,6 +1,6 @@
 def date(months):
     """
-    takes todays date and then calculates the date in the inputted months time
+    takes todays date and then calculates the date in the inputted month time
     :param months:
     :return:
     """
