@@ -6,7 +6,7 @@ def num_full(centers):
     """
     full = 0
     num = centers.values()
-    # Creates a list of trainees per centers
+    # Creates month list of trainees per centers
     for i in num:
     # iterates through the list
         if i == 100:

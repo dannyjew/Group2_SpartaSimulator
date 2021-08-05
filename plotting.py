@@ -30,7 +30,7 @@ def time_trainees(months, month_trainees):
     y = month_trainees
     ax.set_xlabel("Number of Months")
     ax.set_ylabel("Number of Trainees")
-    title_obj = plt.title("Total Number of Trainees Each month")
+    title_obj = plt.title("Total Number of Trainees Each months")
     plt.setp(title_obj, color='#401F51')
     ax.xaxis.label.set_color('#401F51')
     ax.yaxis.label.set_color('#401F51')

@@ -33,7 +33,7 @@ input_frame.pack(side=BOTTOM, expand=True, fill="both")
 # second frame is where the logo will be
 menu_frame = Frame(main_frame, width=window_width, height=50, bg="#00181A")
 menu_frame.pack(side=TOP, expand=True, fill="both")
-# Function to open a web browser
+# Function to open month web browser
 
 
 def hyper(url):
@@ -45,7 +45,7 @@ logo1 = Label(menu_frame, image=SG_logo, fg="White", bg="#00181A", cursor="hand2
 # placing the logo within thi grid
 logo1.grid(row=0, column=0, padx=75, pady=100)
 logo1.grid_propagate(False)  # Ensures that the frame doesn't fit only around the logo
-# Binds the logo to a button that calls upon the function above to open a browser and the link specified below
+# Binds the logo to month button that calls upon the function above to open month browser and the link specified below
 logo1.bind("<Button-1>", lambda e: hyper("https://www.spartaglobal.com"))
 
 title_label = Label(menu_frame, text="Sparta Simulation", fg="White", bg="#00181A", font=titleStyle)
@@ -78,7 +78,7 @@ month_entry = Entry(entries_frame, width=40, font=fontStyle, bd=2)
 month_entry.grid(row=1, column=1, pady=2, ipady=10)
 month_entry.configure(highlightcolor="#E23761")
 
-# Defining a function to be called once the submit button is pressed
+# Defining month function to be called once the submit button is pressed
 
 
 def submit():
