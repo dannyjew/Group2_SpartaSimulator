@@ -19,4 +19,4 @@ def time_frame():
     return user_month_input # this just gives us the month as an integer that we can then use for the rest of our work
 
 
-
+month = time_frame()
