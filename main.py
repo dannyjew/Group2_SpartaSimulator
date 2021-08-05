@@ -33,6 +33,7 @@ while date(month_tick) != end_date:
 time_centers(month_c, centers_month, month)
 time_trainees(month, trainees_month)
 
-print(month_c)
+
 print(f"There are {len(centers)} center(s), training {sum(centers.values())} trainees, {num_full(centers)} center(s) is/are full, and there are {wait_list} on the wait list.")
+# comment out show if being run through gui
 show()
