@@ -9,11 +9,12 @@ from plotting import time_centers, time_trainees,  show
 import gui_puttog
 
 today = date(0)
-months = gui_puttog.submit()[1]
+mon = gui_puttog.submit()
+months = mon[1]
 print(f"This simulation will show you what Sparta will look like in {months} months.") # this is to confirm the months or the user can re-start
 end_date = date(months)
 month_tick = 0
-centers = gui_puttog.submit()[0]
+centers = mon[0]
 wait_list = 0
 centers_month = [len(centers,)]
 trainees_month = [0,]
